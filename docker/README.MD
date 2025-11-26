@@ -36,26 +36,6 @@ Dashboard Visuals
 | Superset        | Dashboard tool                                    |
 | Docker          | Runs all services in isolated containers          |
 
----
-
-## 🗂 Project Structure
-
-clickstream_project/
-│
-├── docker/
-│   └── docker-compose.yml
-│
-├── producer/
-│   └── produce_clicks.py
-│
-├── streaming/
-│   └── streaming_job.py
-│
-├── batch/
-│   └── batch_etl.py
-│
-├── convert_parquet_to_csv.py
-└── README.md
 
 ---
 
