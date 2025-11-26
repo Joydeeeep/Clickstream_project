@@ -15,13 +15,11 @@ This project simulates an **e-commerce clickstream pipeline** that ingests live 
 
 ## Architecture Overview
 
-User Clicks → Kafka Producer → Kafka Topic → Spark Streaming
+User Clicks → Kafka Producer → Kafka Topic → Spark Streaming → Spark Batch ETL → CSV
                                        
-Superset Dashboard      HDFS (Parquet Storage)
+Superset Dashboard     
 
 Spark Batch ETL → CSV
-
-Dashboard Visuals
 
 ---
 
@@ -104,12 +102,12 @@ password: admin
 
 # What This Project Demonstrates
 
-✔ Real-time streaming analytics
-✔ Kafka–Spark integration
-✔ Distributed storage with HDFS
-✔ Batch processing workflow
-✔ Visual analytics with Superset
-✔ Docker-based big data environment
+Real-time streaming analytics
+Kafka–Spark integration
+Distributed storage with HDFS
+Batch processing workflow
+Visual analytics with Superset
+Docker-based big data environment
 
 ---
 
