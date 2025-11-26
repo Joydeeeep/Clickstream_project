@@ -19,8 +19,6 @@ User Clicks → Kafka Producer → Kafka Topic → Spark Streaming → Spark Bat
                                        
 Superset Dashboard     
 
-Spark Batch ETL → CSV
-
 ---
 
 ## Tech Stack
