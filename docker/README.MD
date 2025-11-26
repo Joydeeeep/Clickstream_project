@@ -25,7 +25,7 @@ Dashboard Visuals
 
 ---
 
-## 📦ech Stack
+## Tech Stack
 
 | Component       | Purpose                                           |
 | --------------- | ------------------------------------------------- |
