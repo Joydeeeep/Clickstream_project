@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Docker volumes / data outputs
+docker/shared/output/
+docker/shared/clickstream_raw_csv/
+docker/shared/raw_clickstream/
+docker/shared/*.parquet
+docker/shared/*.log
+
+# Superset internal data (if you ever mount it)
+superset_home/
+superset_postgres/
