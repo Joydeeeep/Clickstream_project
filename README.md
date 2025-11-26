@@ -16,11 +16,11 @@ This project simulates an **e-commerce clickstream pipeline** that ingests live 
 ## Architecture Overview
 
 User Clicks → Kafka Producer → Kafka Topic → Spark Streaming
-↓                                       ↓
+                                       
 Superset Dashboard      HDFS (Parquet Storage)
-↓
+
 Spark Batch ETL → CSV
-↓
+
 Dashboard Visuals
 
 ---
